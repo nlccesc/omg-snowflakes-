@@ -5,7 +5,7 @@ import pyswarms as ps
 import random
 
 # Load and preprocess CSV data
-df = pd.read_csv('C:\\Users\\haoha\\OneDrive\\Desktop\\personal\\Projects\\Personal\\WIP\\omg-snowflakes--main\\snowflake_data.csv')
+df = pd.read_csv('your_file_path.csv')
 
 # Initial Parameters (assuming a simple random choice for baseline)
 initial_params = [np.random.uniform(-100, 100), np.random.uniform(-100, 100)]
