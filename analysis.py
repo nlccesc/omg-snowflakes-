@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = 'C:\\Users\\haoha\\OneDrive\\Desktop\\personal\\Projects\\Personal\\WIP\\omg-snowflakes--main\\snowflake_data.csv'
+df = 'your_file_path.csv'
 
 df['X Position'] = pd.to_numeric(df['X Position'], errors='coerce')
 df['Y Position'] = pd.to_numeric(df['Y Position'], errors='coerce')
