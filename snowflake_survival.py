@@ -7,7 +7,7 @@ import random
 import multiprocessing
 
 # Load and preprocess CSV data
-df = pd.read_csv('C:\\Users\\haoha\\OneDrive\\Desktop\\personal\\Projects\\Personal\\WIP\\omg-snowflakes--main\\snowflake_data.csv')
+df = pd.read_csv('your_file_path.csv')
 
 # Define the snowflake simulation function
 def simulate_snowflake(simulated_x, simulated_y, n_snowflakes=100, temperature_threshold=5, max_time=100):
